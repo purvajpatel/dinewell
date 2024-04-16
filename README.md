@@ -1,22 +1,20 @@
-# Eat
+# DineWell
 
 ![](WhatToEat_Demo.gif)
 
-## Inspiration
-
-## What it does
-Essentially, our website personalizes the user's experience by taking into account the user's dietary restrictions and time-of-day for the meal in order to provide a personalized diet plan for a particular meal of the day.
-
-## How I built it
-By inspecting a given meal for a given day at a restaurant of choice, I generated the personalized choice of dishes by looking at each dish's dietary restrictions, which is indicated next to the name of each dish. This ensures that all of the recommended dishes will satisfy the user's dietary restrictions. I do this by creating a Python backend to webscrape and analyze the data that communicates with a Javascript/HTML based frontend by using AJAX and Flask.
-
-## Challenges I ran into
-There were two categories of challenges that I faced throughout the event - syntax and algorithmic. For the former, although I had experience working on both Javascript and on Python separately, it was our first time trying to connect the two as frontends and backends. For the latter, the default strategy of choosing dishes is to choose randomly out of all possible options based on restrictions, but I did try to employ some sort of machine learning model to make the caloric inputs work out better, and this was slightly more of a challenge because of time.
-
-## Accomplishments that I'm proud of
-The biggest thing that I'm proud of is that I have a fully functional web app that was able to fully integrate the frontend Javascript and the backend Python.
-
-## What I learned
-I learned several different methods for integrating frontend and backend, including Flask.
 
 
+## Functionality
+Our platform tailors the user experience by considering their dietary restrictions and the time of day to offer a personalized meal plan for any specific mealtime.
+
+## Development
+I devised a method to analyze  meal options, ensuring each dish complies with the user's dietary needs. This involved creating a Python backend for web scraping and analysis, seamlessly communicating with a frontend built using JavaScript and HTML through AJAX and Flask.
+
+## Hurdles
+My challenges fell into two main categories: syntax and algorithms. Integrating JavaScript and Python, despite prior experience with both languages individually, posed a novel challenge. On the algorithmic side, while the default selection strategy was random within restrictions, implementing a machine learning model for improved caloric recommendations proved to be a time-intensive challenge.
+
+## Achievements
+I'm most proud of achieving a fully functional web application that successfully integrates frontend JavaScript with backend Python.
+
+## Insights Gained
+Through this project, I acquired various techniques for integrating frontend and backend systems, with Flask serving as a valuable tool in this integration process.
